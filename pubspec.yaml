@@ -1,0 +1,29 @@
+name: blooddonate
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  awesome_bottom_bar: ^1.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.11.0  # or the latest version
+
+flutter_icons:  # This should be at the root level, not under dev_dependencies
+  android: true
+  ios: true
+  image_path: "assets/ic_launcher.jpg"  # Path to your app icon
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
